@@ -5,7 +5,7 @@ module.exports = {
             navigateFallback: '/index.html',
             runtimeCaching: [
                 {
-                    urlPatterns: new RegExp('*'),
+                    urlPattern: new RegExp('/openweathermap/'),
                     handler: 'networkFirst',
                     options: {
                         networkTimeoutSeconds: 20,
