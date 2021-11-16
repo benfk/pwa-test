@@ -14,6 +14,7 @@ export default {
   },
   created() {
     window.addEventListener("beforeinstallprompt", (e) => {
+        console.log('pwa add')
       e.preventDefault();
       this.deferredPrompt = e;
     });
