@@ -27,7 +27,7 @@ export default {
   methods: {
     handleClick() {
       if (this.deferredPrompt) {
-        console.log("clicked");
+        console.log("clicked", deferredPrompt);
         this.deferredPrompt.prompt();
       }
     },
