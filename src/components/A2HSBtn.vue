@@ -14,7 +14,7 @@ export default {
   },
   created() {
     window.addEventListener("beforeinstallprompt", (e) => {
-        console.log('pwa add')
+      console.log("pwa add");
       e.preventDefault();
       this.deferredPrompt = e;
     });
@@ -26,7 +26,10 @@ export default {
   },
   methods: {
     handleClick() {
-      console.log("clicked");
+      if (this.deferredPrompt) {
+        console.log("clicked");
+        this.deferredPrompt.prompt();
+      }
     },
   },
 };
