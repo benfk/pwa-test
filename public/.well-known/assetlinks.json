@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jetstreamafricapwa.app",
+      "sha256_cert_fingerprints": [
+        "58:BF:C5:29:71:C0:4A:4D:C8:5B:3C:29:42:73:A5:24:38:2D:0C:28:EE:CD:A5:EB:EA:D8:D2:59:7A:F2:ED:72"
+      ]
+    }
+  }
+]
