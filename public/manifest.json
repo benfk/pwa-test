@@ -26,7 +26,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "https://pwa-testx.netlify.app",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#000000"
 }
